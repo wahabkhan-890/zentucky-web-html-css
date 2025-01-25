@@ -1,0 +1,641 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+}
+
+/* Body */
+body {
+    background-color: rgba(255, 255, 255, 0.75);
+    /* Semi-transparent black */
+    /* color: #fff; */
+    overflow: auto;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    height: 173px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    width: 430px;
+    height: 173px;
+    background-color: #ffffff;
+    margin-top: -65px;
+    margin-left: 83px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.logo img {
+    width: 345px;
+    height: 106px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    /* Removes bullets */
+    height: 144px;
+}
+
+.navbar ul li {
+    height: 65px;
+    margin-top: 30px;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#homme {
+    width: 209px;
+    height: 209px;
+    margin-top: -65px;
+    margin-left: 83px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#homme a {
+    color: #E31E25;
+    height: 80px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    /* width: 1920px; */
+    width: 100%;
+    height: 1078px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('../assets/images/bg1.jpeg') center/cover no-repeat;
+}
+
+.items {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Hero section */
+
+.hero-img {
+    margin-top: -200px;
+    width: 600px;
+    height: 600px;
+    background: url('../assets/images/vecteezy_hot-and-crispy-fried-chicken-isolated-on-transparent_24724514.png') center/contain no-repeat;
+}
+
+.hero-content {
+    max-width: 729px;
+    height: 302px;
+    text-align: left;
+    margin-top: -260px;
+}
+
+.hero-content h3 {
+    color: #ffffff;
+    font-size: 3rem;
+    /* margin-bottom: 10px; */
+    width: 259px;
+    height: 72px;
+    top: 395px;
+    left: 1139px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.hero-content h1 {
+    width: 712px;
+    height: 180px;
+    top: 467px;
+    left: 1139px;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 90px;
+    color: #FFCC02;
+}
+
+.hero-content p {
+    color: #000000;
+    /* Text color */
+    -webkit-text-stroke: 1px #ffffff;
+    /* Border width and color */
+    font-size: 1.2rem;
+    /* margin-bottom: 20px; */
+    width: 212px;
+    height: 80px;
+    /* margin-top: 617px; */
+    margin-left: 556px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 0px;
+    font-family: Rage Italic;
+}
+
+.hero-content button {
+    background-color: #FFCC02;
+    width: 725px;
+    height: 70px;
+    top: 801px;
+    left: 1139px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+
+.hero-content button span {
+    width: 254px;
+    height: 72px;
+    top: 815px;
+    left: 1375px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+/*  About section */
+.about-section {
+    width: 1840px;
+    height: 476px;
+    margin: 30px auto;
+    /* Center horizontally */
+    display: flex;
+    /* Flexbox for horizontal layout */
+    align-items: center;
+    /* Vertically align items */
+    justify-content: space-between;
+    /* Space out text and image */
+    padding: 20px;
+    background-color: #FFD700;
+    /* Yellow background */
+    border-radius: 17px;
+    /* Rounded corners */
+    overflow: hidden;
+    /* Prevent content overflow */
+}
+
+.about-content {
+    margin-top: -100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-us p {
+
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+    /* Red color for "About Us" */
+    margin: 0 0 10px 0;
+    /* Add spacing below the title */
+}
+
+.about p {
+    color: #000000;
+    width: 930px;
+    /* Adjust text width */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    /* Improve readability */
+    margin: 0;
+    /* Remove default margins */
+}
+
+.about-img {
+    flex-shrink: 0;
+    /* Prevent the image container from shrinking */
+    height: 100%;
+    /* Match the height of the about-section */
+}
+
+.about-img img {
+    width: 800px;
+    /* Maintain the aspect ratio */
+    height: 472px;
+    /* Make the image fill the height of the about-section */
+    /* object-fit: cover; */
+    /* Ensure the image covers its container */
+    margin-right: -50px;
+    border-radius: 10px;
+    /* Add rounded corners */
+    display: block;
+    /* Remove any inline spacing below the image */
+}
+
+/* download section */
+.download {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('../assets/images/bg1.jpeg') center/cover no-repeat;
+    background-color: #000000BF;
+    width: 100%;
+    height: 695px;
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Vertically center content */
+    justify-content: center;
+    /* Center content horizontally */
+    padding: 20px;
+    color: #ffffff;
+    /* Ensure text is readable on dark background */
+}
+
+.download-img {
+    flex: 1;
+    /* Allow image container to take up space */
+    display: flex;
+    justify-content: center;
+    /* Center the image horizontally */
+    align-items: center;
+    /* Center the image vertically */
+}
+
+.download-img img {
+    max-width: 650px;
+    /* Ensure the image scales properly */
+    height: 600px;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+    /* Optional: rounded corners */
+}
+
+.download-content {
+    flex: 1;
+    /* Allow content container to take up space */
+    text-align: center;
+    /* Center align the text */
+    display: flex;
+    flex-direction: column;
+    /* Stack content vertically */
+    justify-content: center;
+    /* Center content vertically */
+    align-items: center;
+    /* Align content horizontally */
+    gap: 20px;
+    /* Add space between elements */
+}
+
+.download-content p {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.download-content-img img {
+    max-width: 300px;
+    /* Scale down the app store logo */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+#zentucky-app {
+    color: #FFCC02;
+}
+
+/* MEnu section */
+.menu {
+    width: 100%;
+    height: auto;
+    /* Allow the height to adjust according to content */
+    padding: 20px;
+}
+
+.menu h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    color: #E31E25;
+    margin-bottom: 40px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.menu-list .items {
+    background-color: #DDDDDD;
+    color: #727272;
+    width: 166px;
+    height: 74px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu-list .items:hover {
+    background-color: #CCCCCC;
+}
+
+.menu-list .onbutton {
+    background-color: #E31E25;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.menu-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* Space out the cards evenly */
+    gap: 20px;
+    /* Space between cards */
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.card1 {
+    background-color: #ffffff;
+    width: 400px;
+    /* Adjust width to your preference */
+    height: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional: add shadow for effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.card1 img {
+    width: 381px;
+    height: 279px;
+    border-radius: 5px;
+}
+
+.card1 h2 {
+    font-size: 24px;
+    color: #333333;
+    margin: 10px 0;
+}
+
+.card1 h3 {
+    font-size: 18px;
+    color: #777777;
+}
+
+.card1 p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.card1 button {
+    background-color: #E31E25;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.card1 button:hover {
+    background-color: #d41b1b;
+}
+
+
+.price-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  Feed Back section */
+
+.feed-back {
+    width: 100%;
+    height: 716px;
+    top: 128px;
+    position: relative;
+    background-color: #000000BF;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('../assets/images/bg1.jpeg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    /* Horizontally centers the container */
+    align-items: center;
+    /* Vertically centers the container */
+}
+
+.feed-container {
+    width: 1752px;
+    height: 539px;
+    top: 3697px;
+    left: 84px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.customer-logo img{
+    width: 200px; 
+    height: 200px; /* Ensure height matches the width */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle area */
+}
+
+
+.feed-left {
+    width: 615px;
+    height: 233px;
+    top: 4003px;
+    left: 84px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 78px;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.feed-left span {
+    width: 615px;
+    height: 233px;
+    top: 4003px;
+    left: 84px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 10px;
+}
+
+.feed-right {
+    width: 809px;
+    height: 485px;
+    /* margin: 50px; */
+    margin-top: 25px;
+    /* margin-right: 25px; */
+    background-color: #FFCC02;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.customer-logo {
+    width: 114px;
+    height: 114px;
+    border: 2px;
+}
+
+.customer-review {
+    width: 600px;
+    height: 80px;
+    margin-top: 100px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.customer-name {
+    width: 161px;
+    height: 36px;
+    margin-top: 120px;
+    margin-left: 80px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/* .customer-review .first-i {
+    display: block;
+    float: left;
+}
+
+.customer-review .second-i {
+    display: block;
+    float: right;
+} */
+
+/*  Timing section */
+
+.timing {
+    width: 1752px;
+    height: 416px;
+    top: 4381px;
+    left: 84px;
+    margin: 120px;
+    margin-left: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('../assets/images/bg1.jpeg') center/cover no-repeat;
+    border-radius: 20px;
+    margin: 160px 10px 60px 80px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.time {
+    margin: 150px;
+    width: 200px;
+    height: 300px;
+    font-size: xx-large;
+}
+
+.schedule {
+    margin-left: -400px;
+    width: 400px;
+    /* height: 500px; */
+
+}
+
+
+/* Bottom section */
+.Container{
+    border:  1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-around;
+    background-color: #000;
+    color: white;
+    height: 80%;
+    width: 100%;
+}
+.Container-left{
+    padding: 100px;
+    margin-left: -200px;
+}
+.Right-item ul li{
+    list-style: none;
+    padding: 5px;
+    
+}
+.Right-item ul li a{
+    color: white;
+    text-decoration: none;
+}
+.copy-right{
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+
+}
